@@ -1,6 +1,5 @@
 body{
   font-family: 'Roboto', sans-serif;
-  /*background-repeat: no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -14,23 +13,22 @@ background{
   box-sizing: border-box;
 }
 #main{
+  padding: 0;
+  margin: 0;
   width: 100%;
-  max-width: auto;
-  /*border: 1px solid red;*/
 }
 .main::after{
   content:"";
   clear: both;
   display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 [class*="col-"]{
   float: left;
-  /*margin: 4px;*/
   padding: 15px;
-  /*border: 1px dashed blue;*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
 }
-/*for Phones*/
 @media only screen and (max-width:800px) {
   [class*="col-"]{
     width: 100%;
@@ -46,7 +44,6 @@ background{
     display: none;
   }
 }
-/*for Desktop*/
 @media only screen and (min-width:800px) {
   .col-1{width: 8.33%;}
   .col-2{width: 16.66%;}
@@ -76,12 +73,10 @@ ul{
   display: inline;
   margin: 0;
   padding: 20px;
-  /*border: 1px solid blue;*/
 }
 li{
   display: inline;
   padding-left: 80px;
-  /*border: 1px dashed blue;*/
 }
 a{
   color: #dcdcdc;
@@ -95,22 +90,27 @@ a:hover{
 }
 
 .navbar{
+  padding: 0;
+  margin: 0;
   width: 100%;
   display: inline-block;
-  overflow: hidden;
-  /*background-color: white;*/
 }
 .logo{
+  padding: 0;
+  margin: 0;
   margin-left: 3%;
+  transform: scaleY(0.7) scaleX(0.7);
 }
 .slider{
-  clear: both;
   display: inline;
   padding: 0;
   margin: 0;
 }
+
 img{
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .floater{
   font-family: 'Times New Roman';
@@ -159,8 +159,6 @@ p{
 .contactUs{
   display: inline-block;
   margin: 0;
-
-
 }
 .txtInput{
   width: 50%;
