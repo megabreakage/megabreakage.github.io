@@ -1,0 +1,176 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #dcdcdc;
+}
+background{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+*{
+  box-sizing: border-box;
+}
+#main{
+  width: 100%;
+  max-width: auto;
+  /*border: 1px solid red;*/
+}
+.main::after{
+  content:"";
+  clear: both;
+  display: inline-block;
+}
+[class*="col-"]{
+  float: left;
+  /*margin: 4px;*/
+  padding: 15px;
+  /*border: 1px dashed blue;*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
+}
+/*for Phones*/
+@media only screen and (max-width:800px) {
+  [class*="col-"]{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 7.5px;
+  }
+  #about, #portfolio, #contacts{
+    width: 100%;
+    height: auto;
+  }
+  .floater{
+    display: none;
+  }
+}
+/*for Desktop*/
+@media only screen and (min-width:800px) {
+  .col-1{width: 8.33%;}
+  .col-2{width: 16.66%;}
+  .col-3{width: 23.20%;}
+  .col-4{width: 33.33%;}
+  .col-5{width: 41.66%;}
+  .col-6{width: 50%;}
+  .col-7{width: 58.33%;}
+  .col-8{width: 66.66%;}
+  .col-9{width: 74.33%;}
+  .col-10{width: 83.33%;}
+  .col-11{width: 91.66%;}
+  .col-12{width: 100%;}
+
+  #about, #portfolio, #contacts{
+    width: 100%;
+    height: 600px;
+  }
+
+}
+.icon-color{
+  color: white;
+}
+
+ul{
+  float: right;
+  display: inline;
+  margin: 0;
+  padding: 20px;
+  /*border: 1px solid blue;*/
+}
+li{
+  display: inline;
+  padding-left: 80px;
+  /*border: 1px dashed blue;*/
+}
+a{
+  color: #dcdcdc;
+}
+a:link{
+  text-decoration: none;
+
+}
+a:hover{
+  color: #6666ff;
+}
+
+.navbar{
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  /*background-color: white;*/
+}
+.logo{
+  margin-left: 3%;
+}
+.slider{
+  clear: both;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+img{
+  width: 100%;
+}
+.floater{
+  font-family: 'Times New Roman';
+  font-style: italic;
+  color: black;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  transform: translateY(200%);
+}
+h1, h2, h3, h4, h5{
+  font-family: DauphinPlain 300;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.about{
+  display: inline-block;
+  margin: 0;
+  padding: 0
+}
+.me{
+  text-align: center;
+}
+.resume{
+  float: right;
+  text-align: center;
+}
+.portfolio{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.project-details{
+  padding: 0;
+  margin: 0;
+  margin-left: 4px;
+  width: 33%;
+  border: 0 solid ;
+}
+.contacts{
+  display: inline-block;
+  margin: 0;
+}
+.contactUs{
+  display: inline-block;
+  margin: 0;
+
+
+}
+.txtInput{
+  width: 50%;
+  padding: 5px;
+}
+.contacts-details{
+  margin: 0;
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  font-size: 11px;
+}
