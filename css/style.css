@@ -32,6 +32,7 @@ ul{
 li{
   display: inline;
   padding-left: 80px;
+  font-family: 'Merienda', cursive;
 }
 a{
   color: #dcdcdc;
@@ -54,10 +55,14 @@ a:hover{
 img{
   width: 100%;
 }
+.floater h4{
+  color: #ffffff !important;
+  text-align: right;
+}
 .floater{
   padding: 15px;
-  font-family: 'Times New Roman';
-  font-style: italic;
+  text-align: right;
+  font-family: 'Merienda', cursive;
   position: absolute;
   margin-top: 20%;
   margin-left: 10%;
