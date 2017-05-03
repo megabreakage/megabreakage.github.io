@@ -5,29 +5,23 @@ body{
   background-position: center;
   color: #dcdcdc;
 }
-background{
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-*{
-  box-sizing: border-box;
+
+@media only screen and (min-width:768px) {
+  .slider, .me, .portfolio, .contacts{
+    margin-bottom: 20px;
+  }
 }
 #main{
   padding: 0;
   margin: 0;
   width: 100%;
 }
-.main::after{
-  content:"";
-  clear: both;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
 .icon-color{
   color: white;
 }
-
+.navbar{
+  margin: 0;
+}
 ul{
   float: right;
   display: inline;
@@ -60,16 +54,21 @@ img{
   width: 100%;
 }
 .floater{
+  padding: 15px;
   font-family: 'Times New Roman';
   font-style: italic;
-  color: black;
   position: absolute;
   margin-top: 20%;
   margin-left: 10%;
+  background-color: rgba(5, 0, 0, 0.4);
+  border-radius: 10px;
 }
 @media only screen and (max-width:768px) {
   .floater{
     display: none;
+  }
+  ul{
+    float: none !important;
   }
 }
 
@@ -80,6 +79,10 @@ h1, h2, h3, h4, h5{
 .me{
   float: none !important;
   margin: 0 auto;
+}
+.details{
+  padding: 10px;
+  border-radius: 10px;
 }
 p{
   text-align: center;
