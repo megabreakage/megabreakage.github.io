@@ -73,8 +73,9 @@ img{
 }
 
 h1, h2, h3, h4, h5{
-  font-family: DauphinPlain 300;
+  font-family: 'Merienda', cursive;
   text-align: center;
+  color: #6666ff
 }
 .me{
   float: none !important;
