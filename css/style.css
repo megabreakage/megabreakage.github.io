@@ -28,7 +28,6 @@ body{
   color: #fff;
   font-size: 27px;
 }
-
 ul{
   float: right;
   display: inline;
@@ -42,7 +41,6 @@ li{
 }
 a:link{
   text-decoration: none;
-
 }
 a:hover{
   color: #6666ff;
@@ -55,12 +53,22 @@ a:hover{
   display: inline;
   padding: 0;
 }
+.slider{
+  background-image: url("../pics/slider1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+}
 img{
   width: 100%;
 }
 .floater h4{
   color: #ffffff !important;
   text-align: right;
+}
+.floater p{
+  color: #ffffff;
 }
 .floater{
   padding: 15px;
@@ -85,6 +93,13 @@ h1, h2, h3, h4, h5{
   font-family: 'Merienda', cursive;
   text-align: center;
   color: #6666ff
+}
+.me{
+  padding: 40px 10px;
+}
+.myPortfolio{
+  background: #EEEEEE;
+  padding: 40px 10px;
 }
 .me{
   float: none !important;
