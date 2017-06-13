@@ -10,7 +10,7 @@ As much as this is information is public sharing should be minimal. Sharing of t
 
 **Installation**
 
-Installations are not necessary. To view the project clone the repository and run it on your web browser or use this [link](megabreakage.github.io).
+Installations are not necessary. To view the project clone the repository and run it on your web browser or use this [link](https://megabreakage.github.io).
 
 **Licensing**
 
