@@ -1,5 +1,10 @@
 body{
   font-family: 'Roboto', sans-serif;
+  background-image:url("../pics/arch_linux-wallpaper.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #dcdcdc;
 }
 
 @media only screen and (min-width:768px) {
@@ -39,6 +44,9 @@ li{
   display: inline;
   padding-left: 80px;
   font-family: 'Merienda', cursive;
+}
+a{
+  color: #dcdcdc;
 }
 a:link{
   text-decoration: none;
